@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+}
+
+.grass-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.turtle-img {
+    display: flex;
+    width: 150px;
+    margin-top: -200px;
+   
+    animation: turtle 6s linear infinite;
+    
+    animation-direction: alternate;
+}
+
+@keyframes turtle {
+    100% {
+        transform: translateX(1400px);
+        
+        
+    }
+   
+    0% {
+        transform: translateX(0px);
+        
+    }
+    
+   
+}
